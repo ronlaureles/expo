@@ -106,8 +106,7 @@ async function namespaceReactNativeFilesAsync(
           if (libraryName === 'cxxreact') {
             // sed already hit this one
             libraryName = versionedLibraryName;
-          }
-          if (libraryName !== 'cxxreact') {
+          } else if (libraryName !== 'cxxreact') {
             fileString = fileString.replace(
               new RegExp(`<${versionedLibraryName}\/([^\.]+)\.h>`, 'g'), // for versioned yoga
               `<${versionedLibraryName}\/${versionPrefix}$1.h>`
@@ -730,7 +729,7 @@ function getConfigsFromArguments(versionNumber, rootPath) {
 }
 
 function getCppLibrariesToVersion() {
-  return ['cxxreact', 'jschelpers', 'yoga', 'jsinspector', 'privatedata', 'fabric'];
+  return ['cxxreact', 'jsi', 'jsiexecutor', 'jsinspector', 'yoga', 'fabric'];
 }
 
 function getPodsToVersion() {
