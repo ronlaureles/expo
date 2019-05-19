@@ -184,6 +184,160 @@ PODS:
     - ABI32_0_0EXTaskManagerInterface
   - ABI32_0_0EXTaskManagerInterface (1.0.0):
     - ABI32_0_0EXCore
+  - ABI33_0_0EXAdsAdMob (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - Google-Mobile-Ads-SDK
+  - ABI33_0_0EXAdsFacebook (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - FBAudienceNetwork
+  - ABI33_0_0EXAmplitude (5.0.0-rc.0):
+    - ABI33_0_0UMConstantsInterface
+    - ABI33_0_0UMCore
+    - Amplitude-iOS
+  - ABI33_0_0EXAppAuth (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - AppAuth
+  - ABI33_0_0EXAppLoaderProvider (5.0.0-rc.0)
+  - ABI33_0_0EXAV (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMPermissionsInterface
+  - ABI33_0_0EXBackgroundFetch (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMTaskManagerInterface
+  - ABI33_0_0EXBarCodeScanner (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMImageLoaderInterface
+  - ABI33_0_0EXBlur (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXBrightness (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXCalendar (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMPermissionsInterface
+  - ABI33_0_0EXCamera (5.0.0-rc.0):
+    - ABI33_0_0UMBarCodeScannerInterface
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFaceDetectorInterface
+    - ABI33_0_0UMFileSystemInterface
+    - ABI33_0_0UMImageLoaderInterface
+    - ABI33_0_0UMPermissionsInterface
+  - ABI33_0_0EXConstants (5.0.0-rc.0):
+    - ABI33_0_0UMConstantsInterface
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXContacts (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFileSystemInterface
+    - ABI33_0_0UMPermissionsInterface
+  - ABI33_0_0EXCrypto (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXDocumentPicker (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFileSystemInterface
+  - ABI33_0_0EXFacebook (5.0.0-rc.0):
+    - ABI33_0_0UMConstantsInterface
+    - ABI33_0_0UMCore
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+  - ABI33_0_0EXFaceDetector (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFaceDetectorInterface
+    - GoogleMobileVision/FaceDetector (~> 1.1.0)
+    - GoogleMobileVision/MVDataOutput (~> 1.1.0)
+  - ABI33_0_0EXFileSystem (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFileSystemInterface
+  - ABI33_0_0EXFont (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFontInterface
+  - ABI33_0_0EXGL (5.0.0-rc.0):
+    - ABI33_0_0UMCameraInterface
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFileSystemInterface
+    - EXGL-CPP
+  - ABI33_0_0EXGoogleSignIn (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - GoogleSignIn (~> 4.4)
+  - ABI33_0_0EXHaptics (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXImageManipulator (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFileSystemInterface
+    - ABI33_0_0UMImageLoaderInterface
+  - ABI33_0_0EXImagePicker (5.0.0-rc.1):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFileSystemInterface
+  - ABI33_0_0EXKeepAwake (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXLinearGradient (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXLocalAuthentication (5.0.0-rc.0):
+    - ABI33_0_0UMConstantsInterface
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXLocalization (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXLocation (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMPermissionsInterface
+    - ABI33_0_0UMTaskManagerInterface
+  - ABI33_0_0EXMailComposer (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFileSystemInterface
+  - ABI33_0_0EXMediaLibrary (5.0.0-rc.1):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMPermissionsInterface
+  - ABI33_0_0EXPermissions (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMPermissionsInterface
+  - ABI33_0_0EXPrint (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFileSystemInterface
+  - ABI33_0_0EXRandom (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXSecureStore (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXSegment (5.0.0-rc.0):
+    - ABI33_0_0UMConstantsInterface
+    - ABI33_0_0UMCore
+    - Analytics (~> 3.5)
+  - ABI33_0_0EXSensors (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMSensorsInterface
+  - ABI33_0_0EXSharing (3.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFileSystemInterface
+  - ABI33_0_0EXSMS (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMPermissionsInterface
+  - ABI33_0_0EXSpeech (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+  - ABI33_0_0EXSQLite (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFileSystemInterface
+  - ABI33_0_0EXTaskManager (5.0.0-rc.0):
+    - ABI33_0_0EXAppLoaderProvider
+    - ABI33_0_0UMConstantsInterface
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMTaskManagerInterface
+  - ABI33_0_0EXVideoThumbnails (1.0.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFileSystemInterface
+  - ABI33_0_0EXWebBrowser (5.0.0-rc.0):
+    - ABI33_0_0UMCore
+  - ABI33_0_0UMBarCodeScannerInterface (2.0.0-rc.0)
+  - ABI33_0_0UMCameraInterface (2.0.0-rc.0)
+  - ABI33_0_0UMConstantsInterface (2.0.0-rc.0)
+  - ABI33_0_0UMCore (2.0.0-rc.0)
+  - ABI33_0_0UMFaceDetectorInterface (2.0.0-rc.0)
+  - ABI33_0_0UMFileSystemInterface (2.0.0-rc.0)
+  - ABI33_0_0UMFontInterface (2.0.0-rc.0)
+  - ABI33_0_0UMImageLoaderInterface (2.0.0-rc.0)
+  - ABI33_0_0UMPermissionsInterface (2.0.0-rc.0)
+  - ABI33_0_0UMReactNativeAdapter (2.0.0-rc.0):
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFontInterface
+    - ReactABI33_0_0
+  - ABI33_0_0UMSensorsInterface (2.0.0-rc.0)
+  - ABI33_0_0UMTaskManagerInterface (2.0.0-rc.0)
   - Amplitude-iOS (3.14.1)
   - Analytics (3.6.10)
   - AppAuth (0.95.0)
@@ -664,6 +818,137 @@ PODS:
     - ReactABI32_0_0/Core
     - ReactABI32_0_0/fishhook
     - ReactABI32_0_0/RCTBlob
+  - ReactABI33_0_0 (0.59.8):
+    - ReactABI33_0_0/Core (= 0.59.8)
+  - ReactABI33_0_0/ABI33_0_0jsi (0.59.8):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - ReactABI33_0_0/ABI33_0_0jsiexecutor (0.59.8):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - ReactABI33_0_0/ABI33_0_0jsi
+    - ReactABI33_0_0/cxxReactABI33_0_0
+  - ReactABI33_0_0/ABI33_0_0jsinspector (0.59.8)
+  - ReactABI33_0_0/ART (0.59.8):
+    - ReactABI33_0_0/Core
+  - ReactABI33_0_0/Core (0.59.8):
+    - yogaABI33_0_0 (= 0.59.8.React)
+  - ReactABI33_0_0/CxxBridge (0.59.8):
+    - Folly (= 2018.10.22.00)
+    - ReactABI33_0_0/ABI33_0_0jsiexecutor
+    - ReactABI33_0_0/Core
+    - ReactABI33_0_0/cxxReactABI33_0_0
+  - ReactABI33_0_0/cxxReactABI33_0_0 (0.59.8):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - ReactABI33_0_0/ABI33_0_0jsinspector
+  - ReactABI33_0_0/DevSupport (0.59.8):
+    - ReactABI33_0_0/Core
+    - ReactABI33_0_0/RCTWebSocket
+  - ReactABI33_0_0/Expo (0.59.8):
+    - ABI33_0_0EXAdsAdMob
+    - ABI33_0_0EXAdsFacebook
+    - ABI33_0_0EXAmplitude
+    - ABI33_0_0EXAppAuth
+    - ABI33_0_0EXAppLoaderProvider
+    - ABI33_0_0EXAV
+    - ABI33_0_0EXBackgroundFetch
+    - ABI33_0_0EXBarCodeScanner
+    - ABI33_0_0EXBlur
+    - ABI33_0_0EXBrightness
+    - ABI33_0_0EXCalendar
+    - ABI33_0_0EXCamera
+    - ABI33_0_0EXConstants
+    - ABI33_0_0EXContacts
+    - ABI33_0_0EXCrypto
+    - ABI33_0_0EXDocumentPicker
+    - ABI33_0_0EXFacebook
+    - ABI33_0_0EXFaceDetector
+    - ABI33_0_0EXFileSystem
+    - ABI33_0_0EXFont
+    - ABI33_0_0EXGL
+    - ABI33_0_0EXGoogleSignIn
+    - ABI33_0_0EXHaptics
+    - ABI33_0_0EXImageManipulator
+    - ABI33_0_0EXImagePicker
+    - ABI33_0_0EXKeepAwake
+    - ABI33_0_0EXLinearGradient
+    - ABI33_0_0EXLocalAuthentication
+    - ABI33_0_0EXLocalization
+    - ABI33_0_0EXLocation
+    - ABI33_0_0EXMailComposer
+    - ABI33_0_0EXMediaLibrary
+    - ABI33_0_0EXPermissions
+    - ABI33_0_0EXPrint
+    - ABI33_0_0EXRandom
+    - ABI33_0_0EXSecureStore
+    - ABI33_0_0EXSegment
+    - ABI33_0_0EXSensors
+    - ABI33_0_0EXSharing
+    - ABI33_0_0EXSMS
+    - ABI33_0_0EXSpeech
+    - ABI33_0_0EXSQLite
+    - ABI33_0_0EXTaskManager
+    - ABI33_0_0EXVideoThumbnails
+    - ABI33_0_0EXWebBrowser
+    - ABI33_0_0UMBarCodeScannerInterface
+    - ABI33_0_0UMCameraInterface
+    - ABI33_0_0UMConstantsInterface
+    - ABI33_0_0UMCore
+    - ABI33_0_0UMFaceDetectorInterface
+    - ABI33_0_0UMFileSystemInterface
+    - ABI33_0_0UMFontInterface
+    - ABI33_0_0UMImageLoaderInterface
+    - ABI33_0_0UMPermissionsInterface
+    - ABI33_0_0UMReactNativeAdapter
+    - ABI33_0_0UMSensorsInterface
+    - ABI33_0_0UMTaskManagerInterface
+    - Amplitude-iOS
+    - Analytics
+    - AppAuth
+    - Branch
+    - EXGL-CPP
+    - FBAudienceNetwork
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Google-Maps-iOS-Utils
+    - Google-Mobile-Ads-SDK
+    - GoogleMaps
+    - GoogleSignIn
+    - JKBigInteger2
+    - lottie-ios
+    - ReactABI33_0_0/Core
+  - ReactABI33_0_0/ExpoOptional (0.59.8):
+    - ReactABI33_0_0/Expo
+  - ReactABI33_0_0/fishhook (0.59.8)
+  - ReactABI33_0_0/RCTActionSheet (0.59.8):
+    - ReactABI33_0_0/Core
+  - ReactABI33_0_0/RCTAnimation (0.59.8):
+    - ReactABI33_0_0/Core
+  - ReactABI33_0_0/RCTBlob (0.59.8):
+    - ReactABI33_0_0/Core
+  - ReactABI33_0_0/RCTCameraRoll (0.59.8):
+    - React/RCTImage
+    - ReactABI33_0_0/Core
+  - ReactABI33_0_0/RCTGeolocation (0.59.8):
+    - ReactABI33_0_0/Core
+  - ReactABI33_0_0/RCTImage (0.59.8):
+    - ReactABI33_0_0/Core
+    - ReactABI33_0_0/RCTNetwork
+  - ReactABI33_0_0/RCTNetwork (0.59.8):
+    - ReactABI33_0_0/Core
+  - ReactABI33_0_0/RCTText (0.59.8):
+    - ReactABI33_0_0/Core
+  - ReactABI33_0_0/RCTVibration (0.59.8):
+    - ReactABI33_0_0/Core
+  - ReactABI33_0_0/RCTWebSocket (0.59.8):
+    - ReactABI33_0_0/Core
+    - ReactABI33_0_0/fishhook
+    - ReactABI33_0_0/RCTBlob
   - UMBarCodeScannerInterface (2.0.0-rc.0)
   - UMCameraInterface (2.0.0-rc.0)
   - UMConstantsInterface (2.0.0-rc.0)
@@ -682,6 +967,7 @@ PODS:
   - yoga (0.59.8.React)
   - yogaABI31_0_0 (0.57.1.React)
   - yogaABI32_0_0 (0.57.1.React)
+  - yogaABI33_0_0 (0.59.8.React)
 
 DEPENDENCIES:
   - ABI31_0_0EXAdsAdMob (from `./versioned-react-native/ABI31_0_0/EXAdsAdMob`)
@@ -749,6 +1035,63 @@ DEPENDENCIES:
   - ABI32_0_0EXSMS (from `./versioned-react-native/ABI32_0_0/EXSMS`)
   - ABI32_0_0EXTaskManager (from `./versioned-react-native/ABI32_0_0/EXTaskManager`)
   - ABI32_0_0EXTaskManagerInterface (from `./versioned-react-native/ABI32_0_0/EXTaskManagerInterface`)
+  - ABI33_0_0EXAdsAdMob (from `./versioned-react-native/ABI33_0_0/EXAdsAdMob`)
+  - ABI33_0_0EXAdsFacebook (from `./versioned-react-native/ABI33_0_0/EXAdsFacebook`)
+  - ABI33_0_0EXAmplitude (from `./versioned-react-native/ABI33_0_0/EXAmplitude`)
+  - ABI33_0_0EXAppAuth (from `./versioned-react-native/ABI33_0_0/EXAppAuth`)
+  - ABI33_0_0EXAppLoaderProvider (from `./versioned-react-native/ABI33_0_0/EXAppLoaderProvider`)
+  - ABI33_0_0EXAV (from `./versioned-react-native/ABI33_0_0/EXAV`)
+  - ABI33_0_0EXBackgroundFetch (from `./versioned-react-native/ABI33_0_0/EXBackgroundFetch`)
+  - ABI33_0_0EXBarCodeScanner (from `./versioned-react-native/ABI33_0_0/EXBarCodeScanner`)
+  - ABI33_0_0EXBlur (from `./versioned-react-native/ABI33_0_0/EXBlur`)
+  - ABI33_0_0EXBrightness (from `./versioned-react-native/ABI33_0_0/EXBrightness`)
+  - ABI33_0_0EXCalendar (from `./versioned-react-native/ABI33_0_0/EXCalendar`)
+  - ABI33_0_0EXCamera (from `./versioned-react-native/ABI33_0_0/EXCamera`)
+  - ABI33_0_0EXConstants (from `./versioned-react-native/ABI33_0_0/EXConstants`)
+  - ABI33_0_0EXContacts (from `./versioned-react-native/ABI33_0_0/EXContacts`)
+  - ABI33_0_0EXCrypto (from `./versioned-react-native/ABI33_0_0/EXCrypto`)
+  - ABI33_0_0EXDocumentPicker (from `./versioned-react-native/ABI33_0_0/EXDocumentPicker`)
+  - ABI33_0_0EXFacebook (from `./versioned-react-native/ABI33_0_0/EXFacebook`)
+  - ABI33_0_0EXFaceDetector (from `./versioned-react-native/ABI33_0_0/EXFaceDetector`)
+  - ABI33_0_0EXFileSystem (from `./versioned-react-native/ABI33_0_0/EXFileSystem`)
+  - ABI33_0_0EXFont (from `./versioned-react-native/ABI33_0_0/EXFont`)
+  - ABI33_0_0EXGL (from `./versioned-react-native/ABI33_0_0/EXGL`)
+  - ABI33_0_0EXGoogleSignIn (from `./versioned-react-native/ABI33_0_0/EXGoogleSignIn`)
+  - ABI33_0_0EXHaptics (from `./versioned-react-native/ABI33_0_0/EXHaptics`)
+  - ABI33_0_0EXImageManipulator (from `./versioned-react-native/ABI33_0_0/EXImageManipulator`)
+  - ABI33_0_0EXImagePicker (from `./versioned-react-native/ABI33_0_0/EXImagePicker`)
+  - ABI33_0_0EXKeepAwake (from `./versioned-react-native/ABI33_0_0/EXKeepAwake`)
+  - ABI33_0_0EXLinearGradient (from `./versioned-react-native/ABI33_0_0/EXLinearGradient`)
+  - ABI33_0_0EXLocalAuthentication (from `./versioned-react-native/ABI33_0_0/EXLocalAuthentication`)
+  - ABI33_0_0EXLocalization (from `./versioned-react-native/ABI33_0_0/EXLocalization`)
+  - ABI33_0_0EXLocation (from `./versioned-react-native/ABI33_0_0/EXLocation`)
+  - ABI33_0_0EXMailComposer (from `./versioned-react-native/ABI33_0_0/EXMailComposer`)
+  - ABI33_0_0EXMediaLibrary (from `./versioned-react-native/ABI33_0_0/EXMediaLibrary`)
+  - ABI33_0_0EXPermissions (from `./versioned-react-native/ABI33_0_0/EXPermissions`)
+  - ABI33_0_0EXPrint (from `./versioned-react-native/ABI33_0_0/EXPrint`)
+  - ABI33_0_0EXRandom (from `./versioned-react-native/ABI33_0_0/EXRandom`)
+  - ABI33_0_0EXSecureStore (from `./versioned-react-native/ABI33_0_0/EXSecureStore`)
+  - ABI33_0_0EXSegment (from `./versioned-react-native/ABI33_0_0/EXSegment`)
+  - ABI33_0_0EXSensors (from `./versioned-react-native/ABI33_0_0/EXSensors`)
+  - ABI33_0_0EXSharing (from `./versioned-react-native/ABI33_0_0/EXSharing`)
+  - ABI33_0_0EXSMS (from `./versioned-react-native/ABI33_0_0/EXSMS`)
+  - ABI33_0_0EXSpeech (from `./versioned-react-native/ABI33_0_0/EXSpeech`)
+  - ABI33_0_0EXSQLite (from `./versioned-react-native/ABI33_0_0/EXSQLite`)
+  - ABI33_0_0EXTaskManager (from `./versioned-react-native/ABI33_0_0/EXTaskManager`)
+  - ABI33_0_0EXVideoThumbnails (from `./versioned-react-native/ABI33_0_0/EXVideoThumbnails`)
+  - ABI33_0_0EXWebBrowser (from `./versioned-react-native/ABI33_0_0/EXWebBrowser`)
+  - ABI33_0_0UMBarCodeScannerInterface (from `./versioned-react-native/ABI33_0_0/UMBarCodeScannerInterface`)
+  - ABI33_0_0UMCameraInterface (from `./versioned-react-native/ABI33_0_0/UMCameraInterface`)
+  - ABI33_0_0UMConstantsInterface (from `./versioned-react-native/ABI33_0_0/UMConstantsInterface`)
+  - ABI33_0_0UMCore (from `./versioned-react-native/ABI33_0_0/UMCore`)
+  - ABI33_0_0UMFaceDetectorInterface (from `./versioned-react-native/ABI33_0_0/UMFaceDetectorInterface`)
+  - ABI33_0_0UMFileSystemInterface (from `./versioned-react-native/ABI33_0_0/UMFileSystemInterface`)
+  - ABI33_0_0UMFontInterface (from `./versioned-react-native/ABI33_0_0/UMFontInterface`)
+  - ABI33_0_0UMImageLoaderInterface (from `./versioned-react-native/ABI33_0_0/UMImageLoaderInterface`)
+  - ABI33_0_0UMPermissionsInterface (from `./versioned-react-native/ABI33_0_0/UMPermissionsInterface`)
+  - ABI33_0_0UMReactNativeAdapter (from `./versioned-react-native/ABI33_0_0/UMReactNativeAdapter`)
+  - ABI33_0_0UMSensorsInterface (from `./versioned-react-native/ABI33_0_0/UMSensorsInterface`)
+  - ABI33_0_0UMTaskManagerInterface (from `./versioned-react-native/ABI33_0_0/UMTaskManagerInterface`)
   - Amplitude-iOS (~> 3.8)
   - Analytics (~> 3.5)
   - AppAuth (~> 0.4)
@@ -857,6 +1200,21 @@ DEPENDENCIES:
   - ReactABI32_0_0/RCTText (from `./versioned-react-native/ABI32_0_0`)
   - ReactABI32_0_0/RCTVibration (from `./versioned-react-native/ABI32_0_0`)
   - ReactABI32_0_0/RCTWebSocket (from `./versioned-react-native/ABI32_0_0`)
+  - ReactABI33_0_0/ART (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/Core (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/CxxBridge (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/DevSupport (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/Expo (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/ExpoOptional (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/RCTActionSheet (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/RCTAnimation (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/RCTCameraRoll (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/RCTGeolocation (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/RCTImage (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/RCTNetwork (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/RCTText (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/RCTVibration (from `./versioned-react-native/ABI33_0_0`)
+  - ReactABI33_0_0/RCTWebSocket (from `./versioned-react-native/ABI33_0_0`)
   - UMBarCodeScannerInterface (from `../packages/unimodules-barcode-scanner-interface/ios`)
   - UMCameraInterface (from `../packages/unimodules-camera-interface/ios`)
   - UMConstantsInterface (from `../packages/unimodules-constants-interface/ios`)
@@ -872,6 +1230,7 @@ DEPENDENCIES:
   - yoga (from `../react-native-lab/react-native/ReactCommon/yoga`)
   - yogaABI31_0_0 (from `./versioned-react-native/ABI31_0_0/ReactCommon/ABI31_0_0yoga`)
   - yogaABI32_0_0 (from `./versioned-react-native/ABI32_0_0/ReactCommon/ABI32_0_0yoga`)
+  - yogaABI33_0_0 (from `./versioned-react-native/ABI33_0_0/ReactCommon/ABI33_0_0yoga`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -1032,6 +1391,120 @@ EXTERNAL SOURCES:
     :path: "./versioned-react-native/ABI32_0_0/EXTaskManager"
   ABI32_0_0EXTaskManagerInterface:
     :path: "./versioned-react-native/ABI32_0_0/EXTaskManagerInterface"
+  ABI33_0_0EXAdsAdMob:
+    :path: "./versioned-react-native/ABI33_0_0/EXAdsAdMob"
+  ABI33_0_0EXAdsFacebook:
+    :path: "./versioned-react-native/ABI33_0_0/EXAdsFacebook"
+  ABI33_0_0EXAmplitude:
+    :path: "./versioned-react-native/ABI33_0_0/EXAmplitude"
+  ABI33_0_0EXAppAuth:
+    :path: "./versioned-react-native/ABI33_0_0/EXAppAuth"
+  ABI33_0_0EXAppLoaderProvider:
+    :path: "./versioned-react-native/ABI33_0_0/EXAppLoaderProvider"
+  ABI33_0_0EXAV:
+    :path: "./versioned-react-native/ABI33_0_0/EXAV"
+  ABI33_0_0EXBackgroundFetch:
+    :path: "./versioned-react-native/ABI33_0_0/EXBackgroundFetch"
+  ABI33_0_0EXBarCodeScanner:
+    :path: "./versioned-react-native/ABI33_0_0/EXBarCodeScanner"
+  ABI33_0_0EXBlur:
+    :path: "./versioned-react-native/ABI33_0_0/EXBlur"
+  ABI33_0_0EXBrightness:
+    :path: "./versioned-react-native/ABI33_0_0/EXBrightness"
+  ABI33_0_0EXCalendar:
+    :path: "./versioned-react-native/ABI33_0_0/EXCalendar"
+  ABI33_0_0EXCamera:
+    :path: "./versioned-react-native/ABI33_0_0/EXCamera"
+  ABI33_0_0EXConstants:
+    :path: "./versioned-react-native/ABI33_0_0/EXConstants"
+  ABI33_0_0EXContacts:
+    :path: "./versioned-react-native/ABI33_0_0/EXContacts"
+  ABI33_0_0EXCrypto:
+    :path: "./versioned-react-native/ABI33_0_0/EXCrypto"
+  ABI33_0_0EXDocumentPicker:
+    :path: "./versioned-react-native/ABI33_0_0/EXDocumentPicker"
+  ABI33_0_0EXFacebook:
+    :path: "./versioned-react-native/ABI33_0_0/EXFacebook"
+  ABI33_0_0EXFaceDetector:
+    :path: "./versioned-react-native/ABI33_0_0/EXFaceDetector"
+  ABI33_0_0EXFileSystem:
+    :path: "./versioned-react-native/ABI33_0_0/EXFileSystem"
+  ABI33_0_0EXFont:
+    :path: "./versioned-react-native/ABI33_0_0/EXFont"
+  ABI33_0_0EXGL:
+    :path: "./versioned-react-native/ABI33_0_0/EXGL"
+  ABI33_0_0EXGoogleSignIn:
+    :path: "./versioned-react-native/ABI33_0_0/EXGoogleSignIn"
+  ABI33_0_0EXHaptics:
+    :path: "./versioned-react-native/ABI33_0_0/EXHaptics"
+  ABI33_0_0EXImageManipulator:
+    :path: "./versioned-react-native/ABI33_0_0/EXImageManipulator"
+  ABI33_0_0EXImagePicker:
+    :path: "./versioned-react-native/ABI33_0_0/EXImagePicker"
+  ABI33_0_0EXKeepAwake:
+    :path: "./versioned-react-native/ABI33_0_0/EXKeepAwake"
+  ABI33_0_0EXLinearGradient:
+    :path: "./versioned-react-native/ABI33_0_0/EXLinearGradient"
+  ABI33_0_0EXLocalAuthentication:
+    :path: "./versioned-react-native/ABI33_0_0/EXLocalAuthentication"
+  ABI33_0_0EXLocalization:
+    :path: "./versioned-react-native/ABI33_0_0/EXLocalization"
+  ABI33_0_0EXLocation:
+    :path: "./versioned-react-native/ABI33_0_0/EXLocation"
+  ABI33_0_0EXMailComposer:
+    :path: "./versioned-react-native/ABI33_0_0/EXMailComposer"
+  ABI33_0_0EXMediaLibrary:
+    :path: "./versioned-react-native/ABI33_0_0/EXMediaLibrary"
+  ABI33_0_0EXPermissions:
+    :path: "./versioned-react-native/ABI33_0_0/EXPermissions"
+  ABI33_0_0EXPrint:
+    :path: "./versioned-react-native/ABI33_0_0/EXPrint"
+  ABI33_0_0EXRandom:
+    :path: "./versioned-react-native/ABI33_0_0/EXRandom"
+  ABI33_0_0EXSecureStore:
+    :path: "./versioned-react-native/ABI33_0_0/EXSecureStore"
+  ABI33_0_0EXSegment:
+    :path: "./versioned-react-native/ABI33_0_0/EXSegment"
+  ABI33_0_0EXSensors:
+    :path: "./versioned-react-native/ABI33_0_0/EXSensors"
+  ABI33_0_0EXSharing:
+    :path: "./versioned-react-native/ABI33_0_0/EXSharing"
+  ABI33_0_0EXSMS:
+    :path: "./versioned-react-native/ABI33_0_0/EXSMS"
+  ABI33_0_0EXSpeech:
+    :path: "./versioned-react-native/ABI33_0_0/EXSpeech"
+  ABI33_0_0EXSQLite:
+    :path: "./versioned-react-native/ABI33_0_0/EXSQLite"
+  ABI33_0_0EXTaskManager:
+    :path: "./versioned-react-native/ABI33_0_0/EXTaskManager"
+  ABI33_0_0EXVideoThumbnails:
+    :path: "./versioned-react-native/ABI33_0_0/EXVideoThumbnails"
+  ABI33_0_0EXWebBrowser:
+    :path: "./versioned-react-native/ABI33_0_0/EXWebBrowser"
+  ABI33_0_0UMBarCodeScannerInterface:
+    :path: "./versioned-react-native/ABI33_0_0/UMBarCodeScannerInterface"
+  ABI33_0_0UMCameraInterface:
+    :path: "./versioned-react-native/ABI33_0_0/UMCameraInterface"
+  ABI33_0_0UMConstantsInterface:
+    :path: "./versioned-react-native/ABI33_0_0/UMConstantsInterface"
+  ABI33_0_0UMCore:
+    :path: "./versioned-react-native/ABI33_0_0/UMCore"
+  ABI33_0_0UMFaceDetectorInterface:
+    :path: "./versioned-react-native/ABI33_0_0/UMFaceDetectorInterface"
+  ABI33_0_0UMFileSystemInterface:
+    :path: "./versioned-react-native/ABI33_0_0/UMFileSystemInterface"
+  ABI33_0_0UMFontInterface:
+    :path: "./versioned-react-native/ABI33_0_0/UMFontInterface"
+  ABI33_0_0UMImageLoaderInterface:
+    :path: "./versioned-react-native/ABI33_0_0/UMImageLoaderInterface"
+  ABI33_0_0UMPermissionsInterface:
+    :path: "./versioned-react-native/ABI33_0_0/UMPermissionsInterface"
+  ABI33_0_0UMReactNativeAdapter:
+    :path: "./versioned-react-native/ABI33_0_0/UMReactNativeAdapter"
+  ABI33_0_0UMSensorsInterface:
+    :path: "./versioned-react-native/ABI33_0_0/UMSensorsInterface"
+  ABI33_0_0UMTaskManagerInterface:
+    :path: "./versioned-react-native/ABI33_0_0/UMTaskManagerInterface"
   DoubleConversion:
     :podspec: "../react-native-lab/react-native/third-party-podspecs/DoubleConversion.podspec"
   EXAdsAdMob:
@@ -1182,6 +1655,8 @@ EXTERNAL SOURCES:
     :path: "./versioned-react-native/ABI31_0_0"
   ReactABI32_0_0:
     :path: "./versioned-react-native/ABI32_0_0"
+  ReactABI33_0_0:
+    :path: "./versioned-react-native/ABI33_0_0"
   UMBarCodeScannerInterface:
     :path: !ruby/object:Pathname
     path: "../packages/unimodules-barcode-scanner-interface/ios"
@@ -1224,6 +1699,8 @@ EXTERNAL SOURCES:
     :path: "./versioned-react-native/ABI31_0_0/ReactCommon/ABI31_0_0yoga"
   yogaABI32_0_0:
     :path: "./versioned-react-native/ABI32_0_0/ReactCommon/ABI32_0_0yoga"
+  yogaABI33_0_0:
+    :path: "./versioned-react-native/ABI33_0_0/ReactCommon/ABI33_0_0yoga"
 
 SPEC CHECKSUMS:
   ABI31_0_0EXAdsAdMob: 3eef94ebfb66a94d61e22ec5769026ff3846098b
@@ -1291,6 +1768,63 @@ SPEC CHECKSUMS:
   ABI32_0_0EXSMS: ba43894cc1d6a8e4657df84ff45c7cf6a1e8dee1
   ABI32_0_0EXTaskManager: 64c05e52446ebbf712884313ad37186e934ff4c5
   ABI32_0_0EXTaskManagerInterface: f0fa0ecf92a3a5119617085627c5bbec7745140c
+  ABI33_0_0EXAdsAdMob: 160f90b259990d9de500e80466ee3c6513840dfb
+  ABI33_0_0EXAdsFacebook: da451c60903c7a1f7fe2686841864bc6e2c06776
+  ABI33_0_0EXAmplitude: 481a28dd95006ad6689ffce2f00c0fe38bb40be1
+  ABI33_0_0EXAppAuth: 5a3c68f499412983c22da825e5c0441cb3845f57
+  ABI33_0_0EXAppLoaderProvider: 4039b5bbead747e9db56b98dc5d1a5b4aa96200f
+  ABI33_0_0EXAV: 8ff786ebbdb9812c2105a6700c6d3c4996ef44b9
+  ABI33_0_0EXBackgroundFetch: 0be3d2e192d6f917ec6ffc6f17c58297d7c3ddc3
+  ABI33_0_0EXBarCodeScanner: 26a275365e2f1f2b90025a369d43918320bf3cd3
+  ABI33_0_0EXBlur: 8e5ab54243dfd83d031489321c123c82d11c7b59
+  ABI33_0_0EXBrightness: 74c0ce6adb736dd06722a82c423b9dbc1a47ca80
+  ABI33_0_0EXCalendar: 5646079a81d7536b0792b490b191fbeb38669871
+  ABI33_0_0EXCamera: a042802ad70586640aae9dcd680e73fa80d3fd03
+  ABI33_0_0EXConstants: 5cd7697d3bd18db98b7a1d4d480ea4a2d40dea38
+  ABI33_0_0EXContacts: 030634213078f3226dfa8ec43322f96dcafe6a89
+  ABI33_0_0EXCrypto: e23f98a9faecbe65004edc1c3b2a45b5b3bc6cf4
+  ABI33_0_0EXDocumentPicker: 8c5bcedec22c238071cc66e16591b31f05a66215
+  ABI33_0_0EXFacebook: 76b2dc8baad510089bdb17b71644f260b7eebdfc
+  ABI33_0_0EXFaceDetector: 4f6306cf13f5732a9a825639eedcd0998434b1e2
+  ABI33_0_0EXFileSystem: 841b2a8b9a1cb28d875b796812054fe098a8529d
+  ABI33_0_0EXFont: 75df0a5046b880ee9f0ba396791bec3751c6cc31
+  ABI33_0_0EXGL: b22a0256612f6b12ce289096cb25c83ba1be2722
+  ABI33_0_0EXGoogleSignIn: 22771a293f82991a19fab8437a40e0c5b8a825f9
+  ABI33_0_0EXHaptics: 50185c8083c659aa863c91c93634a122b3ef4f45
+  ABI33_0_0EXImageManipulator: 58a20e9583c09059e0e65752be652c657c966a73
+  ABI33_0_0EXImagePicker: 6037dc70895cc0c4193f8638921bb99d01f7fb6e
+  ABI33_0_0EXKeepAwake: ad98eeb216e8608e8286ee8d517b328aab3fcf82
+  ABI33_0_0EXLinearGradient: 169348782ff56357dbd3e986eea5a2b492732b15
+  ABI33_0_0EXLocalAuthentication: e4ad7e8c6333ee61e934760aae1cbe90e5732567
+  ABI33_0_0EXLocalization: 1883e6e06aad90bb6bbfd1ff93eed8dec54b8006
+  ABI33_0_0EXLocation: 2910cf9ac0e49c6c37fd0b7afdf0c3e17e5ed742
+  ABI33_0_0EXMailComposer: f46ce5c6a7ae56d87b8b6dcef6764f4ed07bb893
+  ABI33_0_0EXMediaLibrary: ef19df742759ef8bd0625904a9f6902262f9676b
+  ABI33_0_0EXPermissions: 9482bc2e84e6b82a4d4ea0b5c5b477fd027c414b
+  ABI33_0_0EXPrint: 24acab4342132e3f441ad53c0dc0b662a583d033
+  ABI33_0_0EXRandom: 035cf8f09d47972dad550cb163bf12d4c9f0b8e4
+  ABI33_0_0EXSecureStore: e87e0835c2585b8f7116f6625999f9d6ad1595e7
+  ABI33_0_0EXSegment: 8c16b7dc5d19100ccb85171ef01d55344195029e
+  ABI33_0_0EXSensors: 45324145f5c51e5878b17e0d1ae165a309d2abee
+  ABI33_0_0EXSharing: 051a4fc2c6d699f71adf51010efb501859a4a5a8
+  ABI33_0_0EXSMS: 01740bbcc605133a3e641389526c0fdbd77b32fa
+  ABI33_0_0EXSpeech: 07f8405238c69cc3dfa64c2a2283082fdee19714
+  ABI33_0_0EXSQLite: f74b550b17cf4be5ab9ebfadfacead7cd1926870
+  ABI33_0_0EXTaskManager: d4184d7481b85153a6ba2fd30e91ef17f11db1f5
+  ABI33_0_0EXVideoThumbnails: 80472fde401854289d59249b42a4f120dc72b627
+  ABI33_0_0EXWebBrowser: 19672a50e9b527f6976ff36a39ca394aabe15d1c
+  ABI33_0_0UMBarCodeScannerInterface: 6f6817b44886c8caf7215da44cd4de5714891608
+  ABI33_0_0UMCameraInterface: 3a93327efb85b710f1382ae0b12f451c146a8b29
+  ABI33_0_0UMConstantsInterface: b1de16f8a62ce16b88b5d8a13cc8ba975d65b0e8
+  ABI33_0_0UMCore: 2547024a6a48c9dcc2755d9d952023e2461d2c84
+  ABI33_0_0UMFaceDetectorInterface: 2ba60e4ccc7180b55ce826c3431f60fd7efd838e
+  ABI33_0_0UMFileSystemInterface: 7d12e22956267d3bbe508df15296f097e9a6bae7
+  ABI33_0_0UMFontInterface: 5fd7215605ab752661d4b6877ce7f5e6e72b56a4
+  ABI33_0_0UMImageLoaderInterface: ec537e415c4d92804131fbb81246ca9bbeea826f
+  ABI33_0_0UMPermissionsInterface: acec23fff37cb50f7b90f09fa06221518cbe5169
+  ABI33_0_0UMReactNativeAdapter: c900069b39e77659bd96e4c09d0606245830900d
+  ABI33_0_0UMSensorsInterface: 6fc267e44f78649e06ca0ecea36ca81dd43b708b
+  ABI33_0_0UMTaskManagerInterface: c779d88d2591262161c829c086dfc039d582f704
   Amplitude-iOS: 4a3c8807b2ea5369dc11e87e23825bff01e5a922
   Analytics: 63744ad4afa65c3bcdcdb7a94b62515bde5b3900
   AppAuth: 137f6bb6fc9dfbaf2cf9f6fcff1d336ff0163bc6
@@ -1368,6 +1902,7 @@ SPEC CHECKSUMS:
   React: 1d605e098d69bdf08960787f3446f0a9dc2e2ccf
   ReactABI31_0_0: 4ee2a9c3fa66b83109532d9d85e955092eccff9d
   ReactABI32_0_0: 9b436321df18c2f0a8997f27d1e69ef32c96c67e
+  ReactABI33_0_0: bfefbf59b4de7dc96185b70c230529bfe113570e
   UMBarCodeScannerInterface: f623227f2f6e8fa5c45fef1cc2b5ae200dd14918
   UMCameraInterface: 2a22ae5a2d4f710d617e3fd2c5c0511019aea1c7
   UMConstantsInterface: 9884d2a4a4563b20d7efbafba421151698dd8991
@@ -1383,7 +1918,8 @@ SPEC CHECKSUMS:
   yoga: 128daf064cacaede0c3bb27424b6b4c71052e6cd
   yogaABI31_0_0: 7978689ddccec43cffd5914889304cf3b7fd7c77
   yogaABI32_0_0: b6e0ba3796cd5e47ccea0454694e605a1cfc817a
+  yogaABI33_0_0: 5fb795a9143a978561322e2bc67b91b7404c41a0
 
-PODFILE CHECKSUM: 27b20a6b9cda4f28d3aae8beb835690a1a1a96b3
+PODFILE CHECKSUM: 294d7c7820b0afdc7972b2141e711f1fc86d772f
 
 COCOAPODS: 1.5.3
