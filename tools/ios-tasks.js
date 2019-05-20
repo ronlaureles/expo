@@ -138,7 +138,7 @@ async function namespaceReactNativeFilesAsync(
 
         return await runTransformPipelineIOSAsync({
           input: fileString,
-          path: targetPath,
+          targetPath,
           versionPrefix,
         });
       });
@@ -554,78 +554,6 @@ async function removePodfileDepsAsync(templatesPath, versionedPodNames) {
   return;
 }
 
-async function injectMacrosAsync(versionName, versionedReactPath, majorSDKVersionNumber) {
-  // add a macro EX_REMOVE_VERSION(str) to RCTDefines
-  let definesFilename = path.join(
-    versionedReactPath,
-    'React',
-    'Base',
-    `${versionName}RCTDefines.h`
-  );
-  let namingMacroDefine = `
-  #define ${versionName}EX_REMOVE_VERSION(string) (([string hasPrefix:@"${versionName}"]) ? [string stringByReplacingCharactersInRange:(NSRange){0,@"${versionName}".length} withString:@""] : string)\n`;
-  await fs.appendFile(definesFilename, namingMacroDefine);
-
-  // use the macro on the module name inside RCTBatchedBridge::enqueueJSCall
-  // to pass unversioned names to JS
-  // TODO: update for cxx bridge
-  /* let batchedBridgeFilename = (majorSDKVersionNumber < 18)
-      ? `${versionedReactPath}/React/Base/${versionName}RCTBatchedBridge.m`
-      : `${versionedReactPath}/React/Base/${versionName}RCTBatchedBridge.mm`
-  await _transformFileContentsAsync(
-    batchedBridgeFilename,
-    batchedBridgeContents => {
-      return batchedBridgeContents.replace(
-        /(\(void\)enqueueJSCall\:\(NSString\s\*\))(\w+)([.\S\s]+?(?={){\s[.\S\s])/g,
-        `$1$2$3$2 = ${versionName}EX_REMOVE_VERSION($2);\n`
-      );
-    }
-  ); */
-
-  // use the macro on the return value of RCTBridgeModuleNameForClass
-  // to pass unversioned native module names to JS
-  let macroToInsert = `name = ${versionName}EX_REMOVE_VERSION(name);`;
-  let bridgeFilename = path.join(
-    versionedReactPath,
-    'React',
-    'Base',
-    `${versionName}RCTBridge.m`
-  );
-  await _transformFileContentsAsync(bridgeFilename, bridgeContents => {
-    return bridgeContents.replace(
-      /(NSString\s\*\w+RCTBridgeModuleNameForClass[.\S\s]+?(?=\}\n\n)\}\n\n)([.\S\s]+?(?=if)if)/g,
-      `$1  ${macroToInsert}\n\n$2`
-    );
-  });
-
-  // use the macro in the JS name for RCTComponentData instances
-  let componentDataFilename = path.join(
-    versionedReactPath,
-    'React',
-    'Views',
-    `${versionName}RCTComponentData.m`
-  );
-  await _transformFileContentsAsync(componentDataFilename, fileContents => {
-    return fileContents.replace(
-      /(if \(\[name hasPrefix:@"RK"\]\) \{\n)/g,
-      `${macroToInsert}\n  $1`
-    );
-  });
-
-  // now that this code is versioned, remove meaningless EX_UNVERSIONED declaration
-  let unversionedFilename = path.join(
-    versionedReactPath,
-    'Expo',
-    'Core',
-    `${versionName}EXUnversioned.h`
-  );
-  await _transformFileContentsAsync(unversionedFilename, fileContents => {
-    return fileContents.replace(/(#define symbol[.\S\s]+?(?=\n\n)\n\n)/g, '\n');
-  });
-
-  return;
-}
-
 /**
 * @param transformConfig function that takes a config dict and returns a new config dict.
 */
@@ -862,11 +790,6 @@ exports.addVersionAsync = async function addVersionAsync(
     versionName,
     versionedPodNames
   );
-
-  // Add a naming macro a couple places in the RN code
-  const majorVersion = versionComponents[0];
-  console.log('Performing additional code transform...');
-  await injectMacrosAsync(versionName, newVersionPath, majorVersion);
 
   // Add the new version as a dependency in the main Exponent Podfile
   console.log('Adding dependency to root Podfile...');
